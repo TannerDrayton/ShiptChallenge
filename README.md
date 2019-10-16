@@ -28,8 +28,29 @@ Expected result: network log returns status as 200 and user's home page is displ
 
     2) SELECT name, price,store_id FROM products LEFT JOIN store_prices ON products.id = store_prices.product_id WHERE store_prices.store_id = 1 ORDER BY price DESC;
 
-    3)SELECT * FROM products LEFT JOIN order_lines ON products.id = order_lines.store_id WHERE order_lines.store_id != 2;
+    3)SELECT * FROM products LEFT JOIN order_lines ON products.id = order_lines.store_id WHERE order_lines.store_id != 2;
 
     4) SELECT name, qty FROM products LEFT JOIN order_lines ON products.id = order_lines.product_id;
-    
+
     5) **ADD THIS ANSWER IN**
+
+## ***shipt_login_automation.py***
+
+### This simple script was written using Selenium to perform the task of logging into your Shipt account!
+
+### Requirments for running this script
+
+    1) First, you will need GoogleChrome! Visit https://www.google.com/chrome/ to install Google Chrome.
+
+    2) Second, you will need Python3! Visit https://www.python.org/downloads/ to latest version of Python.
+
+    3) Third, you will need Selenium and ChromeDriver (The ChromeDriver version must be specific to your current google chrome browser version). Visit https://pypi.org/project/selenium/ for links to both Selenium and Chrome Driver!
+
+    4) You will need to have this repository or the file named "shipt_login_automation.py" on your machine.
+
+### Now that the requirments have been met, let's run our program!
+    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "shipt_login_automation.py". If you decided to only download the file,I'd reccomend placing it inside of a folder on your desktop.
+
+    2) Now that you've found the folder open terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
+     
+    3) Lastly type "Python3 shipt_login_automation.py" into your terminal, and press enter to watch the program!
