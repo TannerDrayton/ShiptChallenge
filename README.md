@@ -5,10 +5,10 @@
  Pre-Condition: User must be a registered member with a valid username and password.
  Assumption: User is using a supported browser.
 ### Test steps: 
-    1) Navigate to shop.shipt.com/login.
-    2) In the "EMAIL" field, enter the email of the registered user.
-    3) In the "PASSWORD" field, enter the password of the registered user.
-    4) Click the "LOG IN" button.
+1) Navigate to shop.shipt.com/login.
+2) In the "EMAIL" field, enter the email of the registered user.
+3) In the "PASSWORD" field, enter the password of the registered user.
+4) Click the "LOG IN" button.
 Expected result: network log returns status as 200 and user's home page is displayed. 
 
 ## ***2) Why You Buggin***
