@@ -40,17 +40,34 @@ Expected result: network log returns status as 200 and user's home page is displ
 
 ### Requirments for running this script
 
-    1) First, you will need GoogleChrome! Visit https://www.google.com/chrome/ to install Google Chrome.
+    1) First, you will need GoogleChrome! Visit https://www.google.com/chrome/ to install Google Chrome.
 
-    2) Second, you will need Python3! Visit https://www.python.org/downloads/ to latest version of Python.
+    2) Second, you will need Python3! Visit https://www.python.org/downloads/ to latest version of Python. This script was written using Python 3.7.3
 
     3) Third, you will need Selenium and ChromeDriver (The ChromeDriver version must be specific to your current google chrome browser version). Visit https://pypi.org/project/selenium/ for links to both Selenium and Chrome Driver!
 
-    4) You will need to have this repository or the file named "shipt_login_automation.py" on your machine.
+    4) You will need to have this repository, or the file named "shipt_login_automation.py" on your machine.
 
 ### Now that the requirments have been met, let's run our program!
     1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "shipt_login_automation.py". If you decided to only download the file,I'd reccomend placing it inside of a folder on your desktop.
 
-    2) Now that you've found the folder open terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
+    2) Now that you've found the folder open the terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
      
-    3) Lastly type "Python3 shipt_login_automation.py" into your terminal, and press enter to watch the program!
+    3) Lastly type "Python3 shipt_login_automation.py" into your terminal, and press enter to run the program!
+
+## ***Swapi Automated Tests***
+### Requirments for running the tests
+    1) First, you will need Python3! Visit https://www.python.org/downloads/ to download the latest version of Python. These tests were written using Python 3.7.3!
+
+    2) Second, you will need PyTest! Visit https://docs.pytest.org/en/latest/getting-started.html for information on how to install Pytest. These tests were written using PyTest 5.2.1!
+
+    3) You will need to have this repository, or the file named "swampi_tests.py" on your machine.
+
+### How to run the tests
+    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "swampi_tests.py". If you decided to only download the file,I'd reccomend placing it inside of a folder on your desktop.
+
+    2) Now that you've found the folder open the terminal at that location. This can be done by right-clicking on the folder icon and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
+
+    3) Lastly, type "pytest swapi_tests.py" into your terminal, and see the test results!
+
+    
