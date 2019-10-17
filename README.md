@@ -5,10 +5,10 @@
  Pre-Condition: User must be a registered member with a valid username and password.
  Assumption: User is using a supported browser.
 ### Test steps: 
-            1) Navigate to shop.shipt.com/login.
-            2) In the "EMAIL" field, enter the email of the registered user.
-            3) In the "PASSWORD" field, enter the password of the registered user.
-            4) Click the "LOG IN" button.
+    1) Navigate to shop.shipt.com/login.
+    2) In the "EMAIL" field, enter the email of the registered user.
+    3) In the "PASSWORD" field, enter the password of the registered user.
+    4) Click the "LOG IN" button.
 Expected result: network log returns status as 200 and user's home page is displayed. 
 
 ## ***2) Why You Buggin***
@@ -54,7 +54,10 @@ One of the possible reasons for the phone number not updating is the correct api
 
 2) Now that you've found the folder, open the terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
      
-3) Lastly type "Python3 shipt_login_automation.py" into your terminal, and press enter to run the program!
+3) Lastly type the text below into your terminal, and press enter to run the program
+```
+Python3 shipt_login_automation.py
+```
 
 ## ***Swapi Automated Tests***
 ### Requirments for running the tests
@@ -69,17 +72,17 @@ One of the possible reasons for the phone number not updating is the correct api
 
 2) Now that you've found the folder, open the terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
 
-3) Lastly type "pytest swapi_tests.py" into your terminal, and press enter to run the program!
+3) Lastly type the text below into your terminal, and press enter to run the program!
+```
+PyTest swapi_tests.py
+```
 
 ## ***Follow-up questions***
 
 1) All tools and languages used were recommended.
 
-2) In locating the elements for the UI test I navigated to "shipt.com/login", and inspected the page. Upon inspection Google chrom will find the code related to an element that is being hovered over.
+2) In locating the elements for the UI test I navigated to "shipt.com/login", and inspected the page. Upon inspection Google chrome will find the code related to an element that is being hovered over.
 
 3) The most common causes of instability in UI automation is miscommunication, knowing whether to automate or manually test, and inadequate test building/maintenance. Not clearly communicating the expectations of a project can lead to many different issues such as testing arbitrary testing. However The most detrimental issue is wasted time. This ties into knowing when to automate, Not every test case needs to be automated. If you can properly identify the siigns of a test needing automatinon, then you will save time for yourself and your team. Lastly not maintaining your test suite can lead to the code degrading. This can make it more difficult to change,harder to interpret, or produce inaccurate results.
 
 4) To keep your tests consistent and easy to debug, you need to keep them simple, readable, and reliable. First keeping the tests simple can be done by testing one aspect of the application at a time. This will save time in understanding what aspects are passing and failing at run time. Second keeping tests readable can be done by having a descriptive name, and a clear scenario being tested. Lastly for a test to be reliable it should be replicaple and independent from external factors like the environment or the running order.
-
-
-    
