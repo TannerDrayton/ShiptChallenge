@@ -32,8 +32,6 @@ Expected result: network log returns status as 200 and user's home page is displ
 
     4) SELECT name, qty FROM products LEFT JOIN order_lines ON products.id = order_lines.product_id;
 
-    5) **ADD THIS ANSWER IN**
-
 ## ***shipt_login_automation.py***
 
 ### This simple script was written using Selenium to perform the task of logging into your Shipt account!
@@ -49,7 +47,7 @@ Expected result: network log returns status as 200 and user's home page is displ
     4) You will need to have this repository, or the file named "shipt_login_automation.py" on your machine.
 
 ### Now that the requirments have been met, let's run our program!
-    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "shipt_login_automation.py". If you decided to only download the file,I'd reccomend placing it inside of a folder on your desktop.
+    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "shipt_login_automation.py". If you decided to only download the file,I'd reccomend placing it somewhere easily accessible.
 
     2) Now that you've found the folder open the terminal at that location. This can be done by right-clicking and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
      
@@ -64,10 +62,21 @@ Expected result: network log returns status as 200 and user's home page is displ
     3) You will need to have this repository, or the file named "swampi_tests.py" on your machine.
 
 ### How to run the tests
-    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "swampi_tests.py". If you decided to only download the file,I'd reccomend placing it inside of a folder on your desktop.
+    1) Navigate to the location of the folder "ShiptChallenge"(if you saved the entire repository) or,the file titled "swampi_tests.py". If you decided to only download the file,I'd reccomend placing the file somewhere easily accessible.
 
     2) Now that you've found the folder open the terminal at that location. This can be done by right-clicking on the folder icon and finding "Open in terminal"(if you're on Windows), or two-finger clicking and finding "New terminal on folder"(if you're on MAC).
 
     3) Lastly, type "pytest swapi_tests.py" into your terminal, and see the test results!
+
+## ***Follow-up questions***
+
+### 1) All tools and languages used were recommended.
+
+### 2) In locating the elements for the UI test I navigated to "shipt.com/login",and inspected the page. Upon inspection Google chrome will find the code related to an element that is being  hovered over. 
+
+### 3) The most common causes of instability in UI automation is miscommunication,knowing whether to automate or manually test, and inadequate test building/maintenance. Not clearly communicating the expectations of a project can lead to many different issues.The most detrimental being wasted time. This ties into knowing when to automate.Not every test case needs to be automated. If you can properly identify the signs of a test needing automation,then you will save time for yourself and your team in the future. Lastly,not maintaining your test suite can lead to the code degrading. This can make it more difficult to change,harder to interpret, or produce inaccurate results.
+
+### 4) To keep your tests consistent and easy to debug, you need to keep them simple, readable,and reliable. First, keeping the tests simple can be done by testing one aspect of the application at a time. This will save time in understanding what aspects are passing and failing at run time. Second, keeping tests readable can be done by having a descriptive name, and a clear scenario being tested. Lastly,for a test to be reliable it should be replicable and independent from external factors like the environment or the running order. 
+
 
     
